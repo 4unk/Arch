@@ -18,9 +18,9 @@ bspc config gapless_monocle      true
 
 
 #bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a firefox desktop='^3' 
-bspc rule -a code-oss desktop='^4' state=floating rectangle=1920x1080+0+0
-bspc rule -a TelegramDesktop desktop='^5' state=floating rectangle=1920x1080+0+0 
+#bspc rule -a firefox desktop='^3' 
+bspc rule -a code-oss desktop='^4' #state=floating #rectangle=1920x1080+0+0
+bspc rule -a TelegramDesktop desktop='^5' #state=floating #rectangle=1920x1080+0+0 
 #bspc rule -a Alacritty desktop='^2' state=floating 
 
 
@@ -29,6 +29,6 @@ bspc rule -a TelegramDesktop desktop='^5' state=floating rectangle=1920x1080+0+0
 #feh --bg-fill --randomize ~/.wal/*
 
 # Autstart
-code-oss
-telegram-desktop
-Navigator
+#code-oss
+#telegram-desktop
+#Navigator
